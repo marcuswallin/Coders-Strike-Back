@@ -17,6 +17,7 @@ def get_radial_velocity_ratio(radial_velocity, velocity):
         ratio = 1
     return ratio
 
+
 def get_aim_point(velocity, pos, radial_velocity, checkpoint, angle_to_cp):
     
     direction = checkpoint - pos
